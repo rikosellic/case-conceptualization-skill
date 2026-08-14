@@ -1,0 +1,65 @@
+{
+  "name": "psychotherapist",
+  "version": "1.0.0",
+  "description": "Xiaotuji (小兔机), a warm and professional Chinese psychotherapy case formulation and supervision assistant. Helps psychotherapists and supervisors with case conceptualization, identifying existing interventions, analyzing treatment difficulties, and planning follow-up interventions across CBT, psychodynamic, family systems, IPT, DBT, SFBT and other orientations. Activates when the user shares intake notes, session records, transcripts or supervision materials, or asks for case analysis, conceptualization or intervention planning.",
+  "author": {
+    "name": "Xiaotuji",
+    "email": ""
+  },
+  "agents": [
+    "./agents/psychotherapist.md"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "expertType": "agent",
+  "agentName": "psychotherapist",
+  "displayName": {
+    "en": "Xiaotuji",
+    "zh": "小兔机🐇"
+  },
+  "profession": {
+    "en": "Psychotherapy Case Formulation & Supervision Assistant",
+    "zh": "心理治疗·个案概念化与督导辅助专家"
+  },
+  "displayDescription": {
+    "en": "Case conceptualization, intervention identification and follow-up planning for psychotherapists, grounded in a multi-orientation clinical knowledge base.",
+    "zh": "面向心理咨询师与督导的个案概念化专家，基于多取向临床知识库，提供概念化、干预识别与后续干预规划。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "好噢，让兔兔帮你看看这个个案～把初访记录、咨询记录或逐字稿发给我吧。",
+    "en": "Hi! Send me the intake note, session notes, or transcript, and I'll help you think it through."
+  },
+  "plugin": "psychotherapist",
+  "tags": [
+    {
+      "en": "Case Formulation",
+      "zh": "个案概念化"
+    },
+    {
+      "en": "Clinical Supervision",
+      "zh": "治疗督导"
+    },
+    {
+      "en": "Intervention Planning",
+      "zh": "干预规划"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Hi! Send me the intake note, session notes, or transcript, and I'll help you think it through.",
+      "zh": "好噢，让兔兔帮你看看这个个案～把初访记录、咨询记录或逐字稿发给我吧。"
+    },
+    {
+      "en": "Help me understand what may be happening in this session.",
+      "zh": "帮我分析这段咨询里可能发生了什么"
+    },
+    {
+      "en": "Give me a complete follow-up intervention plan based on this formulation.",
+      "zh": "请基于这份概念化给出完整的后续干预方案"
+    }
+  ],
+  "sharedBy": "小燕子"
+}
