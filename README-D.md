@@ -23,18 +23,19 @@ psychotherapist/
 ├── agents/
 │   └── psychotherapist.md   # 专家定义：人格 + 能力 + 工作流程 + 输出规范 + 安全边界
 ├── skills/
-│   ├── SKILL.md             # 临床工作技能入口
-│   ├── references/          # 临床参考内容（原样保留）
-│   │   ├── AGENTS.md        # 完整强制入口规则（原文）
-│   │   ├── SOUL.md          # 完整人格与语气规范（原文）
-│   │   ├── USER.md          # 使用者称呼偏好
-│   │   ├── TOOLS.md         # PDF 工具说明
-│   │   ├── IDENTITY.md      # 展示身份
-│   │   ├── guides/          # 临床工作流程与知识读取指南
-│   │   └── knowledge/       # 核心知识库：个案概念化/干预/诊断
-│   ├── scripts/
-│   │   └── pdf-analyzer/    # PDF 提取与 OCR 工具（uv 环境）
-│   └── templates/           # 5 个报告 / 干预指导模板（.md + .docx）
+│   └── psychotherapist/
+│       ├── SKILL.md         # 临床工作技能入口
+│       ├── references/      # 临床参考内容（原样保留）
+│       │   ├── AGENTS.md    # 完整强制入口规则（原文）
+│       │   ├── SOUL.md      # 完整人格与语气规范（原文）
+│       │   ├── USER.md      # 使用者称呼偏好
+│       │   ├── TOOLS.md     # PDF 工具说明
+│       │   ├── IDENTITY.md  # 展示身份
+│       │   ├── guides/      # 临床工作流程与知识读取指南
+│       │   └── knowledge/   # 核心知识库：个案概念化/干预/诊断（149 个文件）
+│       ├── scripts/
+│       │   └── pdf-analyzer/ # PDF 提取与 OCR 工具（uv 环境）
+│       └── templates/       # 5 个报告 / 干预指导模板（.md + .docx）
 ├── avatars/
 │   └── expert.png           # 专家头像（512×512，≤500KB）
 └── README.md
@@ -62,7 +63,7 @@ C:\Users\<用户名>\.workbuddy\plugins\marketplaces\my-experts\plugins\
 
 ## 使用方式
 
-- `帮我看看这段咨询里可能发生了什么` → 自由分析
+- `帮我看看这段咨询里可能发生了什么` → 自由分析（默认）
 - `请整理成一份心理动力学个案报告，重点写治疗关系` → 结构化报告
 - `请基于这份概念化给出完整的后续干预方案` → 干预指导
 
@@ -72,6 +73,6 @@ C:\Users\<用户名>\.workbuddy\plugins\marketplaces\my-experts\plugins\
 
 ## 隐私与临床边界
 
-- 不要把真实来访者身份、原始咨询记录、联系方式或其他敏感资料提交到版本库。
+- 不要把真实来访者身份、原始咨询记录、联系方式等敏感资料提交到版本库。
 - 输出用于临床辅助和督导讨论，不替代持证专业人员的评估、诊断、伦理判断或危机处置。
-- 涉及急性风险时，应优先执行现实世界中的风险评估、机构流程和当地紧急支持安排。
+- 涉及急性风险时，优先执行现实世界中的风险评估、机构流程和当地紧急支持安排。
