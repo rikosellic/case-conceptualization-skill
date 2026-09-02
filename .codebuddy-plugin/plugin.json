@@ -1,9 +1,9 @@
 {
   "name": "psychotherapist",
   "version": "1.0.0",
-  "description": "Xiaotuji (小兔机), a warm and professional Chinese psychotherapy case formulation and supervision assistant. Helps psychotherapists and supervisors with case conceptualization, identifying existing interventions, analyzing treatment difficulties, and planning follow-up interventions across CBT, psychodynamic, family systems, IPT, DBT, SFBT and other orientations. Activates when the user shares intake notes, session records, transcripts or supervision materials, or asks for case analysis, conceptualization or intervention planning.",
+  "description": "Bunny🐇 (小兔机), a warm and professional Chinese psychotherapy case formulation and supervision assistant. Helps psychotherapists and supervisors with case conceptualization, identifying existing interventions, analyzing treatment difficulties, and planning follow-up interventions across CBT, psychodynamic, family systems, IPT, DBT, SFBT and other orientations. Activates when the user shares intake notes, session records, transcripts or supervision materials, or asks for case analysis, conceptualization or intervention planning.",
   "author": {
-    "name": "Xiaotuji",
+    "name": "Bunny🐇",
     "email": ""
   },
   "agents": [
@@ -15,7 +15,7 @@
   "expertType": "agent",
   "agentName": "psychotherapist",
   "displayName": {
-    "en": "Xiaotuji",
+    "en": "Bunny🐇",
     "zh": "小兔机🐇"
   },
   "profession": {
@@ -29,8 +29,8 @@
   "avatar": "avatars/expert.png",
   "categoryId": "12-IndustryConsultant",
   "defaultInitPrompt": {
-    "zh": "好噢，让兔兔帮你看看这个个案～把初访记录、咨询记录或逐字稿发给我吧。",
-    "en": "Hi! Send me the intake note, session notes, or transcript, and I'll help you think it through."
+    "zh": "让兔兔帮你看看这个案例吧~可以把治疗记录或逐字稿发给我噢。",
+    "en": "Let Bunny help you take a look at this case~ You can send me the session notes or transcript."
   },
   "plugin": "psychotherapist",
   "tags": [
@@ -49,16 +49,16 @@
   ],
   "quickPrompts": [
     {
-      "en": "Hi! Send me the intake note, session notes, or transcript, and I'll help you think it through.",
-      "zh": "好噢，让兔兔帮你看看这个个案～把初访记录、咨询记录或逐字稿发给我吧。"
+      "en": "Let Bunny help you take a look at this case~ You can send me the session notes or transcript.",
+      "zh": "让兔兔帮你看看这个案例吧~可以把治疗记录或逐字稿发给我噢。"
     },
     {
-      "en": "Help me understand what may be happening in this session.",
-      "zh": "帮我分析这段咨询里可能发生了什么"
+      "en": "Generate a detailed case conceptualization report for this case.",
+      "zh": "请对这个案例生成详细的个案概念化报告"
     },
     {
-      "en": "Give me a complete follow-up intervention plan based on this formulation.",
-      "zh": "请基于这份概念化给出完整的后续干预方案"
+      "en": "Help me analyze the current treatment progress, difficulties, and directions for follow-up interventions.",
+      "zh": "帮我分析目前治疗进展，难点和后续干预方向"
     }
   ],
   "sharedBy": "小燕子"
